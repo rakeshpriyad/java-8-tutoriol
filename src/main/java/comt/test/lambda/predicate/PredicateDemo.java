@@ -1,21 +1,20 @@
 package comt.test.lambda.predicate;
 
 import java.util.function.Predicate;
+
 /**
  * Predicate Represents a predicate (boolean-valued function) of one argument
  * 
-    @FunctionalInterface
-	public interface Predicate<T> {
-
-    /**
-     * Evaluates this predicate on the given argument.
-     *
-     * @param t the input argument
-     * @return {@code true} if the input argument matches the predicate,
-     * otherwise {@code false}
-     
-    boolean test(T t);
-    }
+ * @FunctionalInterface public interface Predicate<T> {
+ * 
+ *                      /** Evaluates this predicate on the given argument.
+ *
+ * @param t
+ *            the input argument
+ * @return {@code true} if the input argument matches the predicate, otherwise
+ *         {@code false}
+ * 
+ *         boolean test(T t); }
  * @author aayushraj
  *
  */
